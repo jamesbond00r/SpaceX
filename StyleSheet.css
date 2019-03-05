@@ -1,0 +1,47 @@
+﻿body {
+ 
+    font-family: Arial;
+    text-align:center;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+th {
+    height: 50px;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.data-container{
+    
+    width: 50vh;
+}
+
+.img {
+    postion: relative;
+    text-align: center;
+    border: solid black 1px;
+    
+}
+
+
+.img img {
+    height: 75vh;
+    width: 100%;
+    float: left;
+    margin-bottom: 125px;
+}
+.img h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: silver;
+}

@@ -11,14 +11,14 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class SiteMaster
-
+Partial Public Class WebForm1
+    
     '''<summary>
-    '''MainContent control.
+    '''form1 control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents MainContent As Global.System.Web.UI.WebControls.ContentPlaceHolder
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 End Class
